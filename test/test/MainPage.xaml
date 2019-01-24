@@ -36,8 +36,8 @@
                     <ColumnDefinition Width="5*"></ColumnDefinition>
                     <ColumnDefinition Width="5*"></ColumnDefinition> 
                 </Grid.ColumnDefinitions>
-                <Button Image="faq.png"  FontAttributes="Bold"  BackgroundColor="Gray" Grid.Row="0" Grid.Column="0" Clicked="ButtonFaq"></Button>
-                <Button Image="info.png"  FontAttributes="Bold"  BackgroundColor="Gray" Grid.Row="0" Grid.Column="1" Clicked="ButtonAcercaDe"></Button>
+                <Button Image="faq.png"    BackgroundColor="Gray" Grid.Row="0" Grid.Column="0" Clicked="ButtonFaq"></Button>
+                <Button Image="info.png"   BackgroundColor="Gray" Grid.Row="0" Grid.Column="1" Clicked="ButtonAcercaDe"></Button>
             </Grid>
 
             <Grid Grid.Row="3" Grid.Column="1" RowSpacing="0.5" ColumnSpacing="0.5">
@@ -45,8 +45,8 @@
                     <ColumnDefinition Width="5*"></ColumnDefinition>
                     <ColumnDefinition Width="5*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>                
-                <Button Image="fb.png" Text="Facebook" TextColor="White" BackgroundColor="Gray" Grid.Row="0" Grid.Column="0" Clicked="ButtonFb"></Button>
-                <Button Image="ig.png" Text="Instagram" TextColor="White" BackgroundColor="Gray" Grid.Row="0" Grid.Column="1" Clicked="ButtonIg"></Button> 
+                <Button Image="fb.png"  BackgroundColor="Gray" Grid.Row="0" Grid.Column="0" Clicked="ButtonFb"></Button>
+                <Button Image="ig.png"  BackgroundColor="Gray" Grid.Row="0" Grid.Column="1" Clicked="ButtonIg"></Button> 
             </Grid>
 
         </Grid>      
