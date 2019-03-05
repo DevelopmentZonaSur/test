@@ -61,8 +61,9 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution: Ricardo Copello (9762N76MBD)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>RJCopello</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
@@ -97,9 +98,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -140,6 +138,74 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ws.imageset\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\ws.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ws.imageset\ws%401x.png" />
+    <ImageAsset Include="Assets.xcassets\ws.imageset\ws%402x.png" />
+    <ImageAsset Include="Assets.xcassets\ws.imageset\ws%403x.png" />
+    <ImageAsset Include="Assets.xcassets\faq.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\faq.imageset\faq.png" />
+    <ImageAsset Include="Assets.xcassets\fb.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fb.imageset\fb.png" />
+    <ImageAsset Include="Assets.xcassets\ig.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ig.imageset\ig.png" />
+    <ImageAsset Include="Assets.xcassets\info.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\info.imageset\info.png" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\logo.png" />
+    <ImageAsset Include="Assets.xcassets\logochch.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logochch.imageset\logochch.png" />
+    <ImageAsset Include="Assets.xcassets\mapa.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\mapa.imageset\mapa.png" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\pagoexp %281%29.png" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\pagoexp %282%29.png" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\pagoexp %287%29.png" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\pagoexp %289%29.png" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\pagoexp%401x.png" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\pagoexp%402x.png" />
+    <ImageAsset Include="Assets.xcassets\pagoexp.imageset\pagoexp%403x.png" />
+    <ImageAsset Include="Assets.xcassets\separador.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\separador.imageset\separador.png" />
+    <ImageAsset Include="Assets.xcassets\sobre.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\sobre.imageset\sobre.png" />
+    <ImageAsset Include="Assets.xcassets\tel.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tel.imageset\tel.png" />
+    <ImageAsset Include="Assets.xcassets\web.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\web.imageset\web%401x.png" />
+    <ImageAsset Include="Assets.xcassets\web.imageset\web%402x.png" />
+    <ImageAsset Include="Assets.xcassets\web.imageset\web%403x.png" />
+    <ImageAsset Include="Assets.xcassets\web.imageset\webq%403x.png" />
+    <ImageAsset Include="Assets.xcassets\cons.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\cons.imageset\cons%401x.png" />
+    <ImageAsset Include="Assets.xcassets\cons.imageset\cons%402x.png" />
+    <ImageAsset Include="Assets.xcassets\cons.imageset\cons%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-40X40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-60X60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-58X58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-87X87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-80X80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-120X120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-180X180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-20X20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-29X29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-76X76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-152X152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-167X167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-48X48.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-55X55.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-88X88.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-100X100.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-172X172.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-196X196.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-216X216.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-16X16.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-32X32.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-64X64.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-128X128.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-256X256.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-512X512.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-1024X1024.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -153,8 +219,12 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\test\test.csproj">
-      <Project>{356F5F1F-9AC6-4994-8EED-28E345EADAA2}</Project>
+      <Project>{82CB67ED-1C51-45D6-A3B2-FBA9A83A6CF4}</Project>
       <Name>test</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
 </Project>

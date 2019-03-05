@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.android", "test\test.Android\test.android.csproj", "{412E46BD-A970-4AED-AAA0-504791DF3AAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.iOS", "test\test.iOS\test.iOS.csproj", "{6D0B74BE-7C37-426E-9317-9C584306B7A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rjcopello.iOS", "test\test.iOS\rjcopello.iOS.csproj", "{6D0B74BE-7C37-426E-9317-9C584306B7A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.UWP", "test\test.UWP\test.UWP.csproj", "{31447CC8-4695-419F-8422-213BDF903D11}"
 EndProject
